@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /* Basic page styling */
+    * {
+      box-sizing: border-box;
+    }
+     body {
+      margin: 0;
+      padding: 30px;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+    }
+     h1 {
+      text-align: center;
+      color: #222;
+      margin-bottom: 10px;
+    }
+    .intro {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
+    }
+     /* Main container */
+    .container {
+      width: 90%;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border: 3px solid #ddd;
+      border-radius: 15px;
+    }
+    /* Fitness cards */
+    .routine-card {
+      width: 30%;
+      float: left;
+
+      /* BOX MODEL */
+      margin: 1.5%;
+      padding: 20px;
+      border: 3px solid #4caf50;
+
+      background: #f8fff8;
+      border-radius: 15px;
+
+      text-align: center;
+      min-height: 270px;
+    }
+     /* Card hover effect */
+    .routine-card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      background: #edfff0;
+    }
+
+    .icon {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    .routine-card h2 {
+      color: #2e7d32;
+      margin: 10px 0;
+    }
+
+    
+
+    .time {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      border-radius: 20px;
+      background: #4caf50;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Second row cards */
+    .second-row {
+      width: 30%;
+      float: left;
+
+      margin: 1.5%;
+      padding: 20px;
+      border: 3px solid #2196f3;
+
+      background: #f5fbff;
+      border-radius: 15px;
+
+      text-align: center;
+      min-height: 270px;
+    }
+    /* Footer */
+    .footer {
+      clear: both;
+      margin-top: 30px;
+      padding: 20px;
+      text-align: center;
+      border-top: 2px solid #ddd;
+      color: #777;
+    }
+    </style>
+</head>
+<body>
+     <div class="container">
+
+    <h1>💪 My Fitness Routine Cards</h1>
+
+    <p class="intro">
+      Stay active, stay healthy, and enjoy your workout!
+    </p>
+
+    <!-- First Row -->
+
+    <div class="routine-card">
+      <div class="icon">🏃</div>
+      <h2>Running</h2>
+      <p>
+        A simple cardio exercise that helps improve stamina
+        and keeps your body active.
+      </p>
+      <span class="time">20 Minutes</span>
+    </div>
+
+    <div class="routine-card">
+      <div class="icon">🧘</div>
+      <h2>Yoga</h2>
+      <p>
+        Practice simple yoga movements to improve flexibility
+        and relaxation.
+      </p>
+      <span class="time">15 Minutes</span>
+    </div>
+
+    <div class="routine-card">
+      <div class="icon">🚴</div>
+      <h2>Cycling</h2>
+      <p>
+        Cycling is a fun activity that can help improve
+        endurance and coordination.
+      </p>
+      <span class="time">30 Minutes</span>
+    </div>
+
+    <!-- Clear float and start new row -->
+    <div class="new-row"></div>
+
+    <!-- Second Row -->
+
+    <div class="second-row">
+      <div class="icon">🏊</div>
+      <h2>Swimming</h2>
+      <p>
+        Swimming is a full-body activity that helps improve
+        coordination and endurance.
+      </p>
+      <span class="time">25 Minutes</span>
+    </div>
+
+    <div class="second-row">
+      <div class="icon">🤸</div>
+      <h2>Stretching</h2>
+      <p>
+        Stretching can help improve flexibility and prepare
+        your body for physical activity.
+      </p>
+      <span class="time">10 Minutes</span>
+    </div>
+
+    <div class="second-row">
+      <div class="icon">🧗</div>
+      <h2>Climbing</h2>
+      <p>
+        Climbing activities can help develop coordination,
+        balance, and strength.
+      </p>
+      <span class="time">20 Minutes</span>
+    </div>
+
+    <div class="footer">
+      🌟 Keep moving and enjoy your fitness routine! 🌟
+    </div>
+
+  </div>
+
+</body>
+</html>
